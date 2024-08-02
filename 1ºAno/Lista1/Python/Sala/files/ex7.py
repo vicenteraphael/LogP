@@ -1,0 +1,1 @@
+print ("Custo de criação = R$ {:.2f}" .format((int(input('Nº de coelhos: ')) * 0.7) / 18 + 10))

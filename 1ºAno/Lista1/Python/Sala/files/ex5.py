@@ -1,0 +1,1 @@
+print ("X² = {:.2f}" .format(float(input("X = ")) ** 2))

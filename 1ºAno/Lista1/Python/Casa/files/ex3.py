@@ -1,0 +1,1 @@
+print ("\nVossa senhoria precisará de {:.2f} azulejos" .format((float(input("Altura da parede (em cm): ")) * float(input("Largura da parede (em cm): "))) / (float(input("Altura do azulejo (em cm): ")) * float(input("Largura do azulejo (em cm): ")))))

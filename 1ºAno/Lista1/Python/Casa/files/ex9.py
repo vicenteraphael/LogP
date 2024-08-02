@@ -1,0 +1,1 @@
+print ("\nMédia = {:.2f}" .format((float(input("Entre com o valor da notas:\nP1 = ")) * 4 + float(input("P2 = ")) * 4 + float(input("Ativ = ")) * 2) / 10))

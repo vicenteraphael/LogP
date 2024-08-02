@@ -1,0 +1,1 @@
+print ("Velocidade média = {:.2f} km/h" .format(float(input("Espaço percorrido (em km): ")) / float(input("Tempo gasto (em h): "))))

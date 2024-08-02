@@ -1,0 +1,1 @@
+print ("\nIMC = {:.2f}" .format(float(input("Massa (em kg): ")) / float(input("Altura (em m): ")) ** 2))

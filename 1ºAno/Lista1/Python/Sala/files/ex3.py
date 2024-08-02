@@ -1,0 +1,1 @@
+print ("Volume = {:.2f} cm³" .format(3.14159 * float(input('Raio (em cm): ')) ** 2 * float(input('Altura (em cm): '))))

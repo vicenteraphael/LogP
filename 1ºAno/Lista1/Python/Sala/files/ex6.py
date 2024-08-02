@@ -1,0 +1,1 @@
+valor = float(input('Valor (em R$): ')); print ("Prestação = R$ {:.2f}" .format(valor + (valor * (float(input('Taxa (em %): ')) / 100)) * float(input('Tempo (em meses): '))))
