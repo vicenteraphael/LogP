@@ -1,10 +1,10 @@
-# <center> Lista 1 - Casa e Sala </center>
+# Lista 1 - Casa e Sala
 
 ![Cobol Programming Studio](C/Casa/outputs/cobol-programming-studio.jpeg)
 
 Aqui contém, meus queridos, minhas queridas, a primeira lista de exercícios de programação que eu fiz na minha vida, resolvidas em Python e em C. Ainda me dá arrepios só de lembrar que portugol e diagrama de blocos são coisas que existem e que eu ainda passei um bom tempo esquentando a cabeça com elas...
 
-# <center> Índice </center>
+# Índice
 - <a href="#casa">Casa</a>
     - <a href="#exercício-1">Exercício 1</a>
     - <a href="#exercício-2">Exercício 2</a>
@@ -28,7 +28,7 @@ Aqui contém, meus queridos, minhas queridas, a primeira lista de exercícios de
     - <a href="#exercício-1-6">Exercício 6</a>
     - <a href="#exercício-1-7">Exercício 7</a>
 
-# <center> Casa </center>
+# Casa
 
 ## Exercício 1
 
@@ -637,7 +637,7 @@ int main() {
 
 ![output do exercício](C/Sala/outputs/ex1.png)
 
-# <center> Sala </center>
+# Sala
 
 ## Exercício 1
 

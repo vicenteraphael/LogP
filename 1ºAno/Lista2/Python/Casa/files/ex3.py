@@ -1,0 +1,1 @@
+print("Nota arredondada = %d" % round(float(input("Nota = "))))
