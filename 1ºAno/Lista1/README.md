@@ -1,86 +1,30 @@
-## índice
+# Lista 1 - Casa e Sala: Python e C
+
+![Cobol Programming Studio](https://th.bing.com/th/id/OIP.-Wcal9XJXZA8lo83zeprUAHaE-?w=238&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+
+## Índice
 - <a href="#Casa">Casa</a>
     - <a href="#exercício-1">Exercício 1</a>
-        - <a href="#enunciado">Enunciado</a>
-        - <a href="#resolução-em-python">Resolução em Python</a>
-        - <a href="#resolucao-em-c">Resolução em C</a>
     - <a href="#exercício-2">Exercício 2</a>
-        - <a href="#enunciado-1">Enunciado</a>
-        - <a href="#resolução-em-python-1">Resolução em Python</a>
-        - <a href="#resolucao-em-c-1">Resolução em C</a>
     - <a href="#exercício-3">Exercício 3</a>
-        - <a href="#enunciado-2">Enunciado</a>
-        - <a href="#resolução-em-python-2">Resolução em Python</a>
-        - <a href="#resolucao-em-c-2">Resolução em C</a>
     - <a href="#exercício-4">Exercício 4</a>
-        - <a href="#enunciado-3">Enunciado</a>
-        - <a href="#resolução-em-python-3">Resolução em Python</a>
-        - <a href="#resolucao-em-c-3">Resolução em C</a>
     - <a href="#exercício-5">Exercício 5</a>
-        - <a href="#enunciado-4">Enunciado</a>
-        - <a href="#resolução-em-python-4">Resolução em Python</a>
-        - <a href="#resolucao-em-c-4">Resolução em C</a>
     - <a href="#exercício-6">Exercício 6</a>
-        - <a href="#enunciado-5">Enunciado</a>
-        - <a href="#resolução-em-python-5">Resolução em Python</a>
-        - <a href="#resolucao-em-c-5">Resolução em C</a>
     - <a href="#exercício-7">Exercício 7</a>
-        - <a href="#enunciado-6">Enunciado</a>
-        - <a href="#resolução-em-python-6">Resolução em Python</a>
-        - <a href="#resolucao-em-c-6">Resolução em C</a>
     - <a href="#exercício-8">Exercício 8</a>
-        - <a href="#enunciado-7">Enunciado</a>
-        - <a href="#resolução-em-python-7">Resolução em Python</a>
-        - <a href="#resolucao-em-c-7">Resolução em C</a>
     - <a href="#exercício-9">Exercício 9</a>
-        - <a href="#enunciado-8">Enunciado</a>
-        - <a href="#resolução-em-python-8">Resolução em Python</a>
-        - <a href="#resolucao-em-c-8">Resolução em C</a>
     - <a href="#exercício-10">Exercício 10</a>
-        - <a href="#enunciado-9">Enunciado</a>
-        - <a href="#resolução-em-python-9">Resolução em Python</a>
-        - <a href="#resolucao-em-c-9">Resolução em C</a>
     - <a href="#exercício-11">Exercício 11</a>
-        - <a href="#enunciado-10">Enunciado</a>
-        - <a href="#resolução-em-python-10">Resolução em Python</a>
-        - <a href="#resolucao-em-c-10">Resolução em C</a>
     - <a href="#exercício-12">Exercício 12</a>
-        - <a href="#enunciado-11">Enunciado</a>
-        - <a href="#resolução-em-python-11">Resolução em Python</a>
-        - <a href="#resolucao-em-c-11">Resolução em C</a>
     - <a href="#exercício-13">Exercício 13</a>
-        - <a href="#enunciado-12">Enunciado</a>
-        - <a href="#resolução-em-python-12">Resolução em Python</a>
-        - <a href="#resolucao-em-c-12">Resolução em C</a>
 - <a href="#Sala">Sala</a>
     - <a href="#exercício-1-1">Exercício 1</a>
-        - <a href="#enunciado">Enunciado</a>
-        - <a href="#resolução-em-python">Resolução em Python</a>
-        - <a href="#resolucao-em-c">Resolução em C</a>
     - <a href="#exercício-1-2">Exercício 2</a>
-        - <a href="#enunciado-1">Enunciado</a>
-        - <a href="#resolução-em-python-1">Resolução em Python</a>
-        - <a href="#resolucao-em-c-1">Resolução em C</a>
     - <a href="#exercício-1-3">Exercício 3</a>
-        - <a href="#enunciado-2">Enunciado</a>
-        - <a href="#resolução-em-python-2">Resolução em Python</a>
-        - <a href="#resolucao-em-c-2">Resolução em C</a>
     - <a href="#exercício-1-4">Exercício 4</a>
-        - <a href="#enunciado-3">Enunciado</a>
-        - <a href="#resolução-em-python-3">Resolução em Python</a>
-        - <a href="#resolucao-em-c-3">Resolução em C</a>
     - <a href="#exercício-1-5">Exercício 5</a>
-        - <a href="#enunciado-4">Enunciado</a>
-        - <a href="#resolução-em-python-4">Resolução em Python</a>
-        - <a href="#resolucao-em-c-4">Resolução em C</a>
     - <a href="#exercício-1-6">Exercício 6</a>
-        - <a href="#enunciado-5">Enunciado</a>
-        - <a href="#resolução-em-python-5">Resolução em Python</a>
-        - <a href="#resolucao-em-c-5">Resolução em C</a>
     - <a href="#exercício-1-7">Exercício 7</a>
-        - <a href="#enunciado-6">Enunciado</a>
-        - <a href="#resolução-em-python-6">Resolução em Python</a>
-        - <a href="#resolucao-em-c-6">Resolução em C</a>
 
 # Casa
 
@@ -104,6 +48,8 @@ print ("R$ {:.2f} = US$ {:.2f}" .format(r, r / 2.4))
 
 #### Output
 
+![output do exercício](Python/Casa/outputs/ex1.png)
+
 ### Resolução em C
 
 #### Código
@@ -124,6 +70,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 2
 
 ### Enunciado:
@@ -142,6 +90,8 @@ print ("US$ {:.2f} = R$ {:.2f}" .format(d, d * 2.4))
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex2.png)
 
 ### Resolução em C
 
@@ -163,6 +113,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 3
 
 ### Enunciado:
@@ -180,6 +132,8 @@ print ("\nVossa senhoria precisará de {:.2f} azulejos" .format((float(input("Al
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex3.png)
 
 ### Resolução em C
 
@@ -207,6 +161,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 4
 
 ### Enunciado:
@@ -229,6 +185,8 @@ print ("\nÁrea = {:.2f} cm²\nPerímetro = {:.2f} cm" .format(a * b, a * 2 + b 
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex4.png)
 
 ### Resolução em C
 
@@ -253,6 +211,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 5
 
 ### Enunciado
@@ -271,6 +231,8 @@ print ("\nIMC = {:.2f}" .format(float(input("Massa (em kg): ")) / float(input("A
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex5.png)
 
 ### Resolução em C
 
@@ -294,13 +256,15 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 6
 
 ### Enunciado:
 
 Dado o valor do raio (r) de uma circunferência, elaborar um programa para calcular 
-e imprimir sua área (A) e o seu comprimento (C). A fórmula da área do círculo é A=_ r2 
-e do comprimento é C=2_ r.
+e imprimir sua área (A) e o seu comprimento (C). A fórmula da área do círculo é A = πr² 
+e do comprimento é C = 2πr.
 
 ### Resolução em Python
 
@@ -313,6 +277,8 @@ print ("\nÁrea = {:.2f} cm²\nComprimento = {:.2f} cm" .format(math.pi * r ** 2
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex6.png)
 
 ### Resolução em C
 
@@ -335,13 +301,15 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 7
 
 ### Enunciado:
 
 Elaborar um programa para calcular e exibir o volume (V) de uma esfera e a área 
 (A) de sua superfície, dado o valor de seu raio (R). A fórmula do volume da esfera é 
-V=4/3 _ R3 e da área é A=4_ R2.
+V = (4/3)πR³ e da área é A = 4πR².
 
 ### Resolução em Python
 
@@ -354,6 +322,8 @@ print ("Volume = {:.2f} cm³\nÁrea = {:.2f} cm²" .format((4 / 3) * math.pi * r
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex7.png)
 
 ### Resolução em C
 
@@ -376,6 +346,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 8
 
 ### Enunciado:
@@ -393,6 +365,8 @@ print ("\nMédia final = {:.2f}" .format((float(input("Entre com o valor das not
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex8.png)
 
 ### Resolução em C
 
@@ -416,6 +390,8 @@ int main() {
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 9
 
@@ -443,6 +419,8 @@ print ("\nMédia = {:.2f}" .format((float(input("Entre com o valor da notas:\nP1
 
 #### Output
 
+![output do exercício](Python/Casa/outputs/ex9.png)
+
 ### Resolução em C
 
 #### Código
@@ -468,6 +446,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 10
 
 ### Enunciado:
@@ -490,6 +470,8 @@ print ("A = {:.2f}\nB = {:.2f}" .format(a, b))
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex10.png)
 
 ### Resolução em C
 
@@ -516,6 +498,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 11
 
 ### Enunciado:
@@ -534,6 +518,8 @@ print ("A = {:.2f}\nB = {:.2f}" .format(a, b))
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex11.png)
 
 ### Resolução em C
 
@@ -560,6 +546,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 12
 
 ### Enunciado:
@@ -577,6 +565,8 @@ print ("Velocidade média = {:.2f} km/h" .format(float(input("Espaço percorrido
 ```
 
 #### Output
+
+![output do exercício](Python/Casa/outputs/ex12.png)
 
 ### Resolução em C
 
@@ -600,6 +590,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 ## Exercício 13
 
 ### Enunciado:
@@ -621,6 +613,8 @@ print ("Metros (s) = {:.2f}" .format(2 + 3 * seg + 0.5 * 10 * seg ** 2))
 
 #### Output
 
+![output do exercício](Python/Casa/outputs/ex13.png)
+
 ### Resolução em C
 
 #### Código
@@ -641,6 +635,8 @@ int main() {
 
 #### Output
 
+![output do exercício]()
+
 # Sala
 
 ## Exercício 1
@@ -660,18 +656,46 @@ gasto na viagem, a distância percorrida e a quantidade de litros usada na viage
 #### Código
 
 ```py
+dados = {'Tempo gasto (em h):' : float(input('Tempo gasto (em h): ')), 'Velocidade média (em km/h):': float(input('Velocidade média (em km/h): '))}
+dados.update({'Distância (em km):': dados['Tempo gasto (em h):'] * dados['Velocidade média (em km/h):']})
+dados.update({'Litros usados:' : dados['Distância (em km):'] / 12})
+print ('')
+for i in dados:
+    print (i, "{:.2f}" .format(dados[i]))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex1.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    float dados[4];
+    printf ("Tempo gasto (em h): ");
+    scanf("%f", &dados[0]);
+    printf ("Velocidade média (em km/h): ");
+    scanf("%f", &dados[1]);
+    dados[2] = dados[0] * dados[1];
+    dados[3] = dados[2] / 12;
+    printf ("\nTempo gasto: %.2f h\n", dados[0]);
+    printf ("Velocidade média: %.2f km/h\n", dados[1]);
+    printf ("Distância: %.2f km\n", dados[2]);
+    printf ("Litros usados: %.2f\n", dados[3]);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 2
 
@@ -686,18 +710,35 @@ Fahrenheit e C em Centígrados
 #### Código
 
 ```py
+f = float(input('°F = '))
+print ("{:.2f} °F = {:.2f} °C" .format(f, ((f - 32) * 5) / 9))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex2.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    double f;
+    printf ("°F = ");
+    scanf("%lf", &f);
+    printf ("%.2lf °F = %.2lf °C", f, (((f - 32) * 5) / 9));
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 3
 
@@ -711,18 +752,36 @@ VOLUME <- 3.14159 * R * R * ALTURA.
 #### Código
 
 ```py
+print ("Volume = {:.2f} cm³" .format(3.14159 * float(input('Raio (em cm): ')) ** 2 * float(input('Altura (em cm): '))))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex3.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    float dados[2];
+    printf ("Raio (em cm): ");
+    scanf ("%f", &dados[0]);
+    printf ("Altura (em cm): ");
+    scanf ("%f", &dados[1]);
+    printf ("Volume = %.2f cm³\n", 3.14159 * dados[0] * dados[0] * dados[1]);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 4
 
@@ -736,18 +795,44 @@ passe a ter o valor da variável B e vice-versa. Exibir os valores trocados.
 #### Código
 
 ```py
+a = float(input("A = "))
+b = float(input("B = "))
+c = a
+a = b
+b = c
+print ("A = {:.2f}\nB = {:.2f}" .format(a, b))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex4.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    float a, b, c;
+    printf ("A = ");
+    scanf ("%f", &a);
+    printf ("B = ");
+    scanf ("%f", &b);
+    c = a;
+    a = b;
+    b = c;
+    printf ("\nA = %.2f\nB = %.2f\n", a, b);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 5
 
@@ -760,18 +845,34 @@ Ler um número inteiro e exibir o resultado do quadrado dele mesmo
 #### Código
 
 ```py
+print ("X² = {:.2f}" .format(float(input("X = ")) ** 2))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex5.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    double x;
+    printf ("X = ");
+    scanf ("%lf", &x);
+    printf ("X² = %.2lf\n", x * x);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 6
 
@@ -785,18 +886,38 @@ Calcular o valor de uma prestação em atraso, usando a fórmula: PRESTAÇÃO
 #### Código
 
 ```py
+valor = float(input('Valor (em R$): ')); print ("Prestação = R$ {:.2f}" .format(valor + (valor * (float(input('Taxa (em %): ')) / 100)) * float(input('Tempo (em meses): '))))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex6.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    float dados[3];
+    printf ("Valor (em R$): ");
+    scanf ("%f", &dados[0]);
+    printf ("Taxa (em %%): ");
+    scanf ("%f", &dados[1]);
+    printf ("Tempo (em meses): ");
+    scanf ("%f", &dados[2]);
+    printf ("Prestação = R$ %.2f\n", dados[0] + (dados[0] * (dados[1] / 100)) * dados[2]);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
 
 ## Exercício 7
 
@@ -812,15 +933,31 @@ valor da variável CUSTO.
 #### Código
 
 ```py
+print ("Custo de criação = R$ {:.2f}" .format((int(input('Nº de coelhos: ')) * 0.7) / 18 + 10))
 ```
 
 #### Output
+
+![output do exercício](Python/Sala/outputs/ex7.png)
 
 ### Resolução em C
 
 #### Código
 
 ```c
+#include <stdio.h>
+
+int main() {
+
+    int coelho;
+    printf ("Nº de coelhos = ");
+    scanf ("%d", &coelho);
+    printf ("Custo de criação = R$ %.2f\n", (coelho * 0.7) / 18 + 10);
+
+    return 0;
+}
 ```
 
 #### Output
+
+![output do exercício]()
