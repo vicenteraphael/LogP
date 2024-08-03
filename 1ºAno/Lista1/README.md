@@ -1,9 +1,11 @@
-# Lista 1 - Casa e Sala: Python e C
+# <center> Lista 1 - Casa e Sala </center>
 
-![Cobol Programming Studio](https://th.bing.com/th/id/OIP.-Wcal9XJXZA8lo83zeprUAHaE-?w=238&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+![Cobol Programming Studio](C/Casa/outputs/cobol-programming-studio.jpeg)
 
-## Índice
-- <a href="#Casa">Casa</a>
+Aqui contém, meus queridos, minhas queridas, a primeira lista de exercícios de programação que eu fiz na minha vida, resolvidas em Python e em C. Ainda me dá arrepios só de lembrar que portugol e diagrama de blocos são coisas que existem e que eu ainda passei um bom tempo esquentando a cabeça com elas...
+
+# <center> Índice </center>
+- <a href="#casa">Casa</a>
     - <a href="#exercício-1">Exercício 1</a>
     - <a href="#exercício-2">Exercício 2</a>
     - <a href="#exercício-3">Exercício 3</a>
@@ -17,7 +19,7 @@
     - <a href="#exercício-11">Exercício 11</a>
     - <a href="#exercício-12">Exercício 12</a>
     - <a href="#exercício-13">Exercício 13</a>
-- <a href="#Sala">Sala</a>
+- <a href="#sala">Sala</a>
     - <a href="#exercício-1-1">Exercício 1</a>
     - <a href="#exercício-1-2">Exercício 2</a>
     - <a href="#exercício-1-3">Exercício 3</a>
@@ -26,7 +28,7 @@
     - <a href="#exercício-1-6">Exercício 6</a>
     - <a href="#exercício-1-7">Exercício 7</a>
 
-# Casa
+# <center> Casa </center>
 
 ## Exercício 1
 
@@ -70,7 +72,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex1.png)
 
 ## Exercício 2
 
@@ -113,7 +115,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex2.png)
 
 ## Exercício 3
 
@@ -161,7 +163,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex3.png)
 
 ## Exercício 4
 
@@ -211,7 +213,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex4.png)
 
 ## Exercício 5
 
@@ -256,7 +258,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex5.png)
 
 ## Exercício 6
 
@@ -301,7 +303,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex6.png)
 
 ## Exercício 7
 
@@ -346,7 +348,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex7.png)
 
 ## Exercício 8
 
@@ -391,7 +393,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex8.png)
 
 ## Exercício 9
 
@@ -402,9 +404,7 @@ P1 – primeira avaliação do semestre.
 P2 – segunda avaliação do semestre.
 Ativ – nota atribuída pelas atividades realizadas no semestre.
 
-Média = P1 x 4 + P2 x 4 + Ativ x 2
-------------------------------------
- 10
+Média = (P1 x 4 + P2 x 4 + Ativ x 2) / 10
 
 Escreva um programa que leia as notas das provas (P1 e P2) e da atividade (Ativ),
 calcule e mostre a média, seguindo o cálculo acima.
@@ -446,7 +446,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex9.png)
 
 ## Exercício 10
 
@@ -498,7 +498,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex10.png)
 
 ## Exercício 11
 
@@ -546,7 +546,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex11.png)
 
 ## Exercício 12
 
@@ -590,7 +590,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex12.png)
 
 ## Exercício 13
 
@@ -635,9 +635,9 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex1.png)
 
-# Sala
+# <center> Sala </center>
 
 ## Exercício 1
 
@@ -695,7 +695,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex2.png)
 
 ## Exercício 2
 
@@ -738,7 +738,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex2.png)
 
 ## Exercício 3
 
@@ -781,7 +781,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex3.png)
 
 ## Exercício 4
 
@@ -832,7 +832,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex4.png)
 
 ## Exercício 5
 
@@ -872,7 +872,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex5.png)
 
 ## Exercício 6
 
@@ -917,7 +917,7 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Sala/outputs/ex6.png)
 
 ## Exercício 7
 
@@ -960,4 +960,4 @@ int main() {
 
 #### Output
 
-![output do exercício]()
+![output do exercício](C/Casa/outputs/ex7.png)

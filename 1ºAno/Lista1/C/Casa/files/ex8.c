@@ -4,7 +4,7 @@ int main() {
 
     float notas[4];
     printf ("Entre com as notas:\n");
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 1; i <= 4; i++) {
         printf ("N%d = ", i);
         scanf ("%f", &notas[i - 1]);
     }
