@@ -3,7 +3,7 @@
 int main() {
     
     int mes;
-    printf ("N do mês (de 1 a 12): ");
+    printf ("Nº do mês (de 1 a 12): ");
     scanf ("%d", &mes);
     switch (mes) {
         case 1:

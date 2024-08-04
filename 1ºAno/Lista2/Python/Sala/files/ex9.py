@@ -1,4 +1,4 @@
-nums = input("Entre com os números: ").split()
+nums = input("Entre com números, direi se há divisibilidade por 4 ou 5:\n").split()
 for i in nums:
     if int(i) % 4 == 0 or int(i) % 5 == 0:
         print (i,"",end='')

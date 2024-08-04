@@ -2,7 +2,18 @@
 
 ![Cobol Programming Studio](C/Casa/outputs/cobol-programming-studio.jpeg)
 
-Aqui contém, meus queridos, minhas queridas, a primeira lista de exercícios de programação que eu fiz na minha vida, resolvidas em Python e em C. Ainda me dá arrepios só de lembrar que portugol e diagrama de blocos são coisas que existem e que eu ainda passei um bom tempo esquentando a cabeça com elas...
+Bem vindo(a) à Lista 1 resolvida em Python e em C.
+
+Aqui contém, meus queridos, minhas queridas, a primeira lista de exercícios de programação que eu fiz na minha vida, resolvida em Python e em C.
+
+Ainda me dá arrepios só de lembrar que portugol e diagrama de blocos são coisas que existem e que eu ainda passei um bom tempo esquentando a cabeça com elas...
+
+As novidades desta lista são:
+
+- Introdução à programação;
+- Funções básicas de input e output;
+- Operações básicas de matemática (+ - * / **);
+- Uso de bibliotecas simples (tais como: math.h, stdbool.h e o famoso stdio.h)
 
 # Índice
 - <a href="#casa">Casa</a>
@@ -961,3 +972,19 @@ int main() {
 #### Output
 
 ![output do exercício](C/Casa/outputs/ex7.png)
+
+E aqui encerra-se o começo da jornada da progração que foi a lista 1.
+
+# Agradecimentos
+
+Se você chegou até aqui, obrigado pela paciência em analisar e avaliar meus códigos.
+
+Caso tenha alguma sugestão de pauta, não hesite em me contatar e expor o seu ponto.
+
+Até a próxima lista.
+
+Continue aprendendo.
+
+Abraços,
+
+Raphael Vicente.

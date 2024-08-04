@@ -3,7 +3,7 @@
 int main() {
 
     double a, b, c;
-    printf ("Entre com os valores, vossa senhoria:\n");
+    printf ("Entre com os valores, irei ordená-los em ordem crescente:\n");
     printf ("A = ");
     scanf ("%lf", &a);
     printf ("B = ");
