@@ -3,18 +3,32 @@
 #include <stdlib.h>
 
 int main() {
-    
-    char *dados = (char*)malloc(10 * sizeof (char));
-    int val, index;
-    printf ("Entre, na mesma linha, com os valores, respectivamente, referentes a:\n\n1) Valor de divisibilidade\n2)Índice do programa\n\n");
-    fgets (dados, 10, stdin);
-    char *pt = strtok(dados, " ");
-    val = atoi(pt);
-    pt = strtok(NULL, " ");
-    index = atoi(pt);
-    for (int i = val; i <= index; i += val) {
-        printf ("%d  ", i);
+    for (;;) {
+        char *dados = (char*)malloc(20 * sizeof (char));
+        int val = 0, index = 0;
+        for (;;) {
+            printf ("Entre, na mesma linha, com os valores, respectivamente, referentes a:\n\n1) Valor de divisibilidade\n2) Índice do programa\n\n");
+            fgets (dados, 20, stdin);
+            char *pt = strtok(dados, " ");
+            val = atoi(pt);
+            pt = strtok(NULL, " ");
+            index = atoi(pt);
+            if (val == 0 && index != 0 || index == 0 && val != 0) {
+                printf ("*Número(s) inválido(s)... Tente novamente*\n");
+            }
+            else {
+                break;
+            }
+        }
+        if (val == 0 && index == 0) {
+            break;
+        }
+        printf ("Aqui estão os números divisíveis por %d, de 1 até %d:\n", val, index);
+        int cont = 1;
+        for (cont = val; cont <= index; cont += val) {
+            printf ("%d ", cont);
+        }
+        printf ("\n");
     }
-    
     return 0;
 }
