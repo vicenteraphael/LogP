@@ -45,5 +45,6 @@ int main() {
             printf ("%.2lf ^ %.2lf = %.2lf\n", vals[0], vals[1], pow(vals[0], vals[1])); 
         }
     }
+    printf ("\nAdeus!");
     return 0;
 }

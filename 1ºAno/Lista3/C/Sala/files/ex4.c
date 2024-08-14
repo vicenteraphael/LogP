@@ -45,5 +45,6 @@ int main() {
             printf ("%d * %d ^ %d = %llu\n", n, mult, i, result);
         }
     }
+    printf ("\nAdeus!");
     return 0;
 }

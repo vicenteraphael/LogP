@@ -37,5 +37,6 @@ int main() {
         }
         fibonacci(n1, n2);
     }
+    printf ("\nAdeus!");
     return 0;
 }

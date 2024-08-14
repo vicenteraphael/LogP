@@ -16,7 +16,10 @@ int main() {
                 pt = strtok(NULL, " ");
                 ++i;
             }
-            if (vals[2] == 0 && vals[0] != vals[1]) {
+            if (vals[0] == 0 && vals[1] == 0 & vals[2] == 0) {
+                break;
+            }
+            if (vals[2] == 0) {
                 printf ("Número(s) inválidos... Tente novamente\n");
             }
             else {
@@ -26,7 +29,13 @@ int main() {
         if (vals[0] == 0 && vals[1] == 0 & vals[2] == 0) {
             break;
         }
-        printf ("Sn = %d", (vals[0] + vals[1]) * (vals[1] / vals[2]) / 2);   
+        if (vals[0] <= vals[1]) {
+            printf ("Sn = %d\n", (vals[0] + vals[1]) * (vals[1] / vals[2]) / 2);
+        }
+        else {
+            printf ("Sn = %d\n", (vals[0] + vals[1]) * (vals[0] / vals[2]) / 2);
+        }
     }
+    printf ("\nAdeus!");
     return 0;
 }

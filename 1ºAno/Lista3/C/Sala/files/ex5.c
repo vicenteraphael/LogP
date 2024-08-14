@@ -30,5 +30,6 @@ int main() {
         }
         printf ("\n");
     }
+    printf ("\nAdeus!");
     return 0;
 }

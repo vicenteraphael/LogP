@@ -16,12 +16,7 @@ int main() {
             index1 = atoi(pt);
             pt = strtok(NULL, " ");
             index2 = atoi(pt);
-            if (index2 == 0 && tab != index1) {
-                printf ("*Número(s) inválidos... Tente novamente*\n");
-            }
-            else {
-                break;
-            }
+            break;
         }
         if (tab == 0 && index1 == 0 && index2 == 0) {
             break;
@@ -38,5 +33,6 @@ int main() {
         }
         printf ("\n");
     }
+    printf ("\nAdeus!");
     return 0;
 }
