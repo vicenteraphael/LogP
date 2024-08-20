@@ -25,3 +25,4 @@ while True:
         print (f"{nums[0]} / {nums[1]} = {nums[0] / nums[1]}\n")
     elif op == "**" or op == "^":
         print (f"{nums[0]} ^ {nums[1]} = {nums[0] ** nums[1]}\n")
+print ("\nAdeus!")

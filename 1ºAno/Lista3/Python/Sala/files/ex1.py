@@ -1,9 +1,16 @@
-dados = input("Na mesma linha, entre, respectivamente, com os valores referentes a:\n\n1) Paridade dos termos da sequência (0 para par e 1 para ímpar)\n2) 1º Número da sequência (a1)\n3) Último número da sequência (an)\n\n").split()
-dados = [int(i) for i in dados]
-if dados[0] == 0 and dados[1] % 2 != 0 or dados[0] == 1 and dados[1] % 2 == 0:
-    dados[1] += 1
-if dados[0] == 0 and dados[2] % 2 != 0 or dados[0] == 1 and dados[2] % 2 == 0:
-    dados[2] -= 1
-print ("Os termos n, tal que n % 2 = {}, entre {} e {} são:" .format(dados[0], dados[1], dados[2]))
-for dados[1] in range (dados[1], dados[2] + 1, 2):
-    print ("{} " .format(dados[1]), end="")
+while True:
+    while True:
+        dados = input("Na mesma linha, entre, respectivamente, com os valores referentes a:\n\n1) 1º Número da sequência (a1)\n2) Último número da sequência (an)\n3) Razão da sequência\nPara sair, entre com 0 em todos os valores\n\n").split()
+        try:
+            dados[0], dados[1], dados[2] = int(dados[0]), int(dados[1]), int(dados[2])
+            break
+        except:
+            print ("Número(s) inválidos... Tente novamente")
+    if dados[0] == dados[1] == dados[2] == 0:
+        break
+    print ("Os termos ímpares entre {} e {} são, de {} em {}:" .format(dados[0], dados[1], dados[2], dados[2]))
+    for dados[0] in range (dados[0], dados[1] + 1, dados[2]):
+        if (dados[0] % 2 != 0):
+            print ("{} " .format(dados[0]), end="")
+    print ()
+print ("Adeus!")

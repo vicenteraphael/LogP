@@ -12,6 +12,7 @@ void fibonacci(int i1, int i2) {
         antsuc = ant;
         ant = x;
     }
+    printf ("\n");
 }
 
 int main() {

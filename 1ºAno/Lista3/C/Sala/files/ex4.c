@@ -27,7 +27,10 @@ int main() {
                 pt = strtok(NULL, " ");
                 ++i;
             }
-            if (stop == 0 && mult != n || n == 0) {
+            if (n == 0 && mult == 0 && stop == 0) {
+                break;
+            }
+            else if (mult == 0) {
                 printf ("*Número(s) inválido(s)... Tente novamente*\n");
             }
             else {

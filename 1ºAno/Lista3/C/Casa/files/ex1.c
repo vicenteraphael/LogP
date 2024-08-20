@@ -8,7 +8,7 @@ int main() {
         char *dados = (char*)malloc(10 * sizeof (char));
         int vals[3] = {0, 0, 0};
         for (;;) {
-            printf ("Na mesma linha, entre com os valores inteiros, respectivamente, referentes a:\n\n1) 1º Número (a1)\n2) Último Número (an)\n3) Razão da sequência (r)\nPara sair, entre com 0 em todos os valores\n\n");
+            printf ("Na mesma linha, entre com os valores inteiros, respectivamente, referentes a:\n\n1) 1º Número da sequência (a1)\n2) Último número da sequência (an)\n3) Razão da sequência (r)\nPara sair, entre com 0 em todos os valores\n\n");
             fgets (dados, 10, stdin);
             char *pt = strtok(dados, " ");
             int i = 0;

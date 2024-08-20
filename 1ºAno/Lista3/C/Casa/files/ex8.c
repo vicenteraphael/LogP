@@ -51,7 +51,7 @@ int main() {
             }
             while (vals[0] >= vals[1]);
         }
-        printff ("\n");
+        printf ("\n");
     }
     printf ("\nAdeus!");
     return 0;

@@ -1,23 +1,33 @@
 while True:
     while True:
         try:
-            vals = input("Na mesma linha, entre com os valores, respectivamente, referentes a:\n\n1) 1º termo da sequência (a1)\n2) Último termo da sequência (an)\n3) Divisibilidade dos termos\nPara sair, entre com 0 em todos os valores\n\n").split()
+            vals = input("Na mesma linha, entre com os valores, respectivamente, referentes a:\n\n1) 1º termo da sequência (a1)\n2) Último termo da sequência (an)\n3) Paridade dos termos (0 para pares e 1 para ímpares)\nPara sair, entre com 0 em todos os valores\n\n").split()
             vals[0], vals[1], vals[2] = int(vals[0]), int(vals[1]), int(vals[2])
+            if vals[2] != 0 and vals[2] != 1:
+                print ("*Número(s) inválido(s)... Tente novamente*")    
+            else:
+                break
         except:
             print ("*Número(s) inválido(s)... Tente novamente*")
-        else:
-            break
     if vals[0] == vals[1] == vals[2] == 0:
         break
-    print (f"Aqui estão os números divisíveis por {vals[2]}, de {vals[0]} até {vals[1]}:")
+    if vals[2] == 0:
+        print (f"Aqui estão os termos pares, entre {vals[0]} e {vals[1]}:")
+    else:
+        print (f"Aqui estão os termos ímpares, entre {vals[0]} e {vals[1]}:")
     if vals[0] < vals[1]:
-        if vals[0] % vals[2] != 0:
-            vals[0] -= vals[0] % vals[2] - vals[2]
-        for vals[0] in range (vals[0], vals[1] + 1, vals[2]):
+        if vals[0] % 2 != 0 and vals[2] == 0 or vals[0] % 2 == 0 and vals[2] == 1:
+            vals[0] += 1
+        if vals[1] % 2 != 0 and vals[2] == 0 or vals[1] % 2 == 0 and vals[2] == 1:
+            vals[1] -= 1
+        for vals[0] in range (vals[0], vals[1] + 1, 2):
             print (f"{vals[0]} ", end="")
     else:
-        if vals[0] % vals[2] != 0:
-            vals[0] -= vals[0] % vals[2]
-        for vals[0] in range (vals[0], vals[1] - 1, -vals[2]):
+        if vals[0] % 2 != 0 and vals[2] == 0 or vals[0] % 2 == 0 and vals[2] == 1:
+            vals[0] -= 1
+        if vals[1] % 2 != 0 and vals[2] == 0 or vals[1] % 2 == 0 and vals[2] == 1:
+            vals[1] += 1
+        for vals[0] in range (vals[0], vals[1] - 1, -2):
             print (f"{vals[0]} ", end="")
     print ("\n")
+print ("\nAdeus!")

@@ -23,12 +23,12 @@ int main() {
         if (val == 0 && index == 0) {
             break;
         }
-        printf ("Aqui estão os números divisíveis por %d, de 1 até %d:\n", val, index);
+        printf ("Aqui estão os números n divisíveis por %d, tal que n < %d:\n", val, index);
         int cont = 1;
         for (cont = val; cont <= index; cont += val) {
             printf ("%d ", cont);
         }
-        printf ("\n");
+        printf ("\n\n");
     }
     printf ("\nAdeus!");
     return 0;

@@ -16,8 +16,11 @@ int main() {
                 pt = strtok(NULL, " ");
                 ++i;
             }
-            if (vals[0] != 0 && vals[0] != 1) {
-                printf ("*Número(s) inválidos... Tente novamente\n*");
+            if (vals[0] == 0 && vals[1] == 0 && vals[2] == 0) {
+                break;
+            }
+            else if (vals[0] != 0 && vals[0] != 1) {
+                printf ("Número(s) inválidos... Tente novamente");
             }
             else {
                 break;

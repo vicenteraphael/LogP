@@ -11,7 +11,7 @@ int main() {
             printf ("Na mesma linha, entre com os valores referentes a:\n\n1) Número da tabuada (pode ser decimal ou inteiro)\n2) Índice inicial da tabuada\n3) Índice final da tabuada\nPara sair, entre com 0 em todos os valores\n\n");
             fgets (dados, 100, stdin);
             char *pt = strtok(dados, " ");
-            tab = atoi(pt);
+            tab = atof(pt);
             pt = strtok(NULL, " ");
             index1 = atoi(pt);
             pt = strtok(NULL, " ");
@@ -31,7 +31,7 @@ int main() {
                 printf ("%.2f X %d = %.2f\n", tab, index1, tab * index1);
             } 
         }
-        printf ("\n");
+        printf ("\n\n");
     }
     printf ("\nAdeus!");
     return 0;

@@ -10,12 +10,13 @@ def fibonacci(x1, x2):
 while True:
     while True:
         try:
-            x1, x2 = input("Na mesma linha, entre, respectivamente com os índices para a Sequência de Fibonacci\n\n1) Índice inicial\n2) Índice final\nPara encerrar o programa, entre com 0 para os dois valores\n\n").split()
+            x1, x2 = input("Na mesma linha, entre, respectivamente com os índices para a Sequência de Fibonacci\n\n1) Índice inicial (a1)\n2) Índice final (an | an > a1)\nPara encerrar o programa, entre com 0 para os dois valores\n\n").split()
+            x1, x2 = int(x1), int(x2)
+            break
         except ValueError:
             print ("*Número(s) inválido(s), tente novamente*")
-        else:
-            break
-    if x1 == x2 == "0":
+    if x1 == x2 == 0:
         break
     x1, x2 = int(x1), int(x2)
     fibonacci(x1, x2)
+print ("\nAdeus!")

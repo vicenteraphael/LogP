@@ -15,3 +15,4 @@ while True:
         for vals[1] in range(vals[1], vals[vals[2]] - 1, -1):
             print("{:.2f} X {} = {:.2f}" .format(vals[0], vals[1], vals[0] * vals[1]))
     print ()
+print ("\nAdeus!")
