@@ -1288,7 +1288,7 @@ print ("Adeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex1.png)
+![output do exercício](Python/Sala/outputs/ex1.png)
 
 ### Resolução em C
 
@@ -1361,7 +1361,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex1.png)
+![output do exercício](C/Sala/outputs/ex1.png)
 
 ## Exercício 2
 
@@ -1402,7 +1402,7 @@ print ("Adeus")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex2.png)
+![output do exercício](Python/Sala/outputs/ex2.png)
 
 ### Resolução em C
 
@@ -1465,7 +1465,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex2.png)
+![output do exercício](C/Sala/outputs/ex2.png)
 
 ## Exercício 3
 
@@ -1500,7 +1500,7 @@ print ("\nAdeus")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex3.png)
+![output do exercício](Python/Sala/outputs/ex3.png)
 
 ### Resolução em C
 
@@ -1548,7 +1548,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex3.png)
+![output do exercício](C/Sala/outputs/ex3.png)
 
 ## Exercício 4
 
@@ -1585,7 +1585,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex4.png)
+![output do exercício](Python/Sala/outputs/ex4.png)
 
 ### Resolução em C
 
@@ -1648,7 +1648,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex4.png)
+![output do exercício](C/Sala/outputs/ex4.png)
 
 ## Exercício 5
 
@@ -1682,7 +1682,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex5.png)
+![output do exercício](Python/Sala/outputs/ex5.png)
 
 ### Resolução em C
 
@@ -1727,7 +1727,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex5.png)
+![output do exercício](C/Sala/outputs/ex5.png)
 
 ## Exercício 6
 
@@ -1762,7 +1762,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex6.png)
+![output do exercício](Python/Sala/outputs/ex6.png)
 
 ### Resolução em C
 
@@ -1822,7 +1822,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex6.png)
+![output do exercício](C/Sala/outputs/ex6.png)
 
 ## Exercício 7
 
@@ -1863,7 +1863,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex7.png)
+![output do exercício](Python/Sala/outputs/ex7.png)
 
 ### Resolução em C
 
@@ -1933,7 +1933,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex7.png)
+![output do exercício](C/Sala/outputs/ex7.png)
 
 ## Exercício 8
 
@@ -1976,7 +1976,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex8.png)
+![output do exercício](Python/Sala/outputs/ex8.png)
 
 ### Resolução em C
 
@@ -2029,7 +2029,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex8.png)
+![output do exercício](C/Sala/outputs/ex8.png)
 
 ## Exercício 9
 
@@ -2059,7 +2059,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex9.png)
+![output do exercício](Python/Sala/outputs/ex9.png)
 
 ### Resolução em C
 
@@ -2105,7 +2105,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex9.png)
+![output do exercício](C/Sala/outputs/ex9.png)
 
 ## Exercício 10
 
@@ -2143,7 +2143,7 @@ print ("\nAdeus")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex10.png)
+![output do exercício](Python/Sala/outputs/ex10.png)
 
 ### Resolução em C
 
@@ -2216,7 +2216,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex10.png)
+![output do exercício](C/Sala/outputs/ex10.png)
 
 ## Exercício 11
 
@@ -2246,7 +2246,7 @@ print ("\nAdeus!")
 
 #### Output
 
-[output do exercício](Python/Sala/outputs/ex11.png)
+![output do exercício](Python/Sala/outputs/ex11.png)
 
 ### Resolução em C
 
@@ -2284,7 +2284,7 @@ int main() {
 ```
 #### Output
 
-[output do exercício](C/Sala/outputs/ex11.png)
+![output do exercício](C/Sala/outputs/ex11.png)
 
 # Agradecimentos
 
