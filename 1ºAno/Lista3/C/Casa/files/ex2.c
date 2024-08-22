@@ -17,7 +17,7 @@ int main() {
                 ++i;
                 pt = strtok(NULL, " ");
             }
-            if (vals[2] != 2 && vals[2] != 1) {
+            if (vals[2] != 0 && vals[2] != 1) {
                 printf ("*Número(s) inválidos... Tente novamente\n*");
             }
             else {

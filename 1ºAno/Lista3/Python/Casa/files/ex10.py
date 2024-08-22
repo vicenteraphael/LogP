@@ -16,13 +16,13 @@ while True:
         else:
             break
     if op == "+":
-        print (f"{nums[0]} + {nums[1]} = {nums[0] + nums[1]}\n")
+        print ("{} + {} = {:.2f}\n" .format(nums[0], nums[1], nums[0] + nums[1]))
     elif op == "-":
-        print (f"{nums[0]} - {nums[1]} = {nums[0] - nums[1]}\n")
+        print ("{} - {} = {:.2f}\n" .format(nums[0], nums[1], nums[0] - nums[1]))
     elif op == "*":
-        print (f"{nums[0]} * {nums[1]} = {nums[0] * nums[1]}\n")
+        print ("{} * {} = {:.2f}\n" .format(nums[0], nums[1], nums[0] * nums[1]))
     elif op == "/":
-        print (f"{nums[0]} / {nums[1]} = {nums[0] / nums[1]}\n")
+        print ("{} / {} = {:.2f}\n" .format(nums[0], nums[1], nums[0] / nums[1]))
     elif op == "**" or op == "^":
-        print (f"{nums[0]} ^ {nums[1]} = {nums[0] ** nums[1]}\n")
+        print ("{} ^ {} = {:.2f}\n" .format(nums[0], nums[1], nums[0] ** nums[1]))
 print ("\nAdeus!")

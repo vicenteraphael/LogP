@@ -17,17 +17,17 @@ int main() {
             index = atoi(pt);
             break;
         }
+        result = pow(base, index);
         if (index == 0 && base == 0) {
             break;
         }
         if (index > 0 && result == 0) {
-            printf ("Ops, parece que o programa infartou. As variáveis em C não têm memória infinita...");
+            printf ("Ops, parece que a variável infartou. As variáveis em C não têm memória infinita...\n");
         }
         else if (index < 0) {
             printf ("%d ^ %d = %.5lf\n", base, index, pow(base, index));
         }
         else {
-            result = pow(base, index);
             printf ("%d ^ %d = %llu\n", base, index, result);
         }
     }

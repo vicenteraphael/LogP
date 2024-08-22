@@ -2,8 +2,9 @@ def fibonacci(x1, x2):
     n = 1
     ant = 1
     antsuc = 0
-    for x1 in range(x1, x2 + 1):
-        print ("{}º = {}" .format(x1, n))
+    for i in range(1, x2 + 1):
+        if i >= x1: 
+            print ("{}º = {}" .format(i, n))
         n = ant + antsuc
         antsuc = ant
         ant = n

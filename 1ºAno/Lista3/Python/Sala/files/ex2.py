@@ -1,7 +1,7 @@
 while True:
     while True:
         try:
-            a1, an, r = input("Na mesma linha, entre com os valores, respectivamente, referentes a:\n\n1) Primeiro valor da sequência (a1)\n2) Último valor da sequência (an)\n3) Razão da sequência\nPara sair, entre com 0 em todos os valores\n\n").split()
+            a1, an, r = input("Na mesma linha, entre com os valores, respectivamente, referentes a:\n\n1) Primeiro valor da sequência (a1)\n2) Último valor da sequência (an)\n3) Razão da sequência (r)\nPara sair, entre com 0 em todos os valores\n\n").split()
             a1, an , r = int(a1), int(an), int(r)
             break
         except:

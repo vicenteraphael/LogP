@@ -29,6 +29,12 @@ int main() {
         if (vals[0] == 0 && vals[1] == 0 && vals[2] == 0) {
             break;
         }
+        if (vals[0] == 0) {
+            printf ("A soma dos valores pares entre %d e %d é ", vals[1], vals[2]);
+        }
+        else {
+            printf ("A soma dos valores ímpares entre %d e %d é ", vals[1], vals[2]);
+        }
         if ((vals[0] == 0 && vals[1] % 2 != 0) || (vals[0] == 1 && vals[1] % 2 == 0)) {
             if (vals[1] <= vals[2]) {
                 vals[1] += 1;
@@ -46,10 +52,10 @@ int main() {
             }
         }
         if (vals[1] <= vals[2]) {
-            printf ("A soma dos valores n, tal que n %% 2 = %d, entre %d e %d é %d\n\n", vals[0], vals[1], vals[2], (vals[1] + vals[2]) * ((vals[2] - vals[1]) / 2 + 1) / 2);
+            printf ("%d\n\n", (vals[1] + vals[2]) * ((vals[2] - vals[1]) / 2 + 1) / 2);
         }
         else {
-            printf ("A soma dos valores n, tal que n %% 2 = %d, entre %d e %d é %d\n\n", vals[0], vals[1], vals[2], (vals[1] + vals[2]) * ((vals[1] - vals[2]) / 2 + 1) / 2);
+            printf ("%d\n\n", (vals[1] + vals[2]) * ((vals[1] - vals[2]) / 2 + 1) / 2);
         }
     }
     printf ("\nAdeus!");

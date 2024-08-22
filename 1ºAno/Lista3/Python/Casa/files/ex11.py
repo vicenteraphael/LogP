@@ -9,7 +9,7 @@ while True:
     if (vals[0] == vals[1] == vals[2] == 0):
         break
     if (vals[1] <= vals[2]):
-        for vals[1] in range(vals[1], vals[vals[2]] + 1):
+        for vals[1] in range(vals[1], vals[2] + 1):
             print("{:.2f} X {} = {:.2f}" .format(vals[0], vals[1], vals[0] * vals[1]))
     else:
         for vals[1] in range(vals[1], vals[vals[2]] - 1, -1):
