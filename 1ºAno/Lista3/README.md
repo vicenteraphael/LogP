@@ -1762,7 +1762,9 @@ print ("\nAdeus!")
 
 #### Output
 
-![output do exercício](Python/Sala/outputs/ex6.png)
+![output do exercício](Python/Sala/outputs/ex6.gif)
+
+sim, o output ficou tão grande que eu tive que gravar um gif
 
 ### Resolução em C
 
@@ -1822,7 +1824,9 @@ int main() {
 ```
 #### Output
 
-![output do exercício](C/Sala/outputs/ex6.png)
+![output do exercício](C/Sala/outputs/ex6.gif)
+
+sim, o output ficou tão grande que eu tive que gravar um gif
 
 ## Exercício 7
 
